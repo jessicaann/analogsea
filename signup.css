@@ -1,0 +1,78 @@
+body {
+	background-color: #5599FF;
+	font-family: Roboto, Avenir, Futura, Calibri, Arial, Helvetica, sans-serif;
+}
+img {
+	display: block;
+	max-height: 35px;
+	margin: 2em;
+}
+h1 {
+	display: block;
+	font-size: 31px;
+	font-weight: lighter;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0;
+}
+label {
+	display: block;
+}
+form {
+
+}
+input {
+	margin: 20px 0;
+	width: 286px;
+	border: 2px solid lightgrey;
+	border-radius: 3px;
+	padding: 15px;
+	font-size: large;
+}
+button {
+	background-color: lightgreen;
+	margin: 10px 0;
+	width: 320px;
+	border: 2px solid lightgreen;
+	border-radius: 3px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+a {
+	text-decoration: underline;
+}
+.centertext {
+	text-align: center;
+}
+.centerblock {
+	margin-right: auto;
+	margin-left: auto;
+}
+.whitebox {
+	width: 320px;
+	padding: 0 40px;
+	background-color: white;
+	border-radius: 3px;
+}
+.block {
+	display: block;
+}
+.forgot {
+	color: grey;
+	padding-bottom: 3em;
+}
+.account {
+	color: white;
+	font-weight: bold;
+}
+button:hover {
+	background-color: darkgreen;
+	border: 2px solid darkgreen;
+}
+
+
+
+
+

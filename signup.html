@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up | AnalogSea</title>
+	<meta name="AnalogSea Sign up" content="AnalogSea's sign up is very cool.">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+	<div>
+		<img class="centerblock" src="analogsea.png">
+		<div class="whitebox centerblock">
+			<h1 class="centertext">Sign up</h1>
+			<form action="/signup/" method="post">
+				<label for="email">Email</label>
+				<input id="email" type="email" name="email" placeholder="foo@bar.com" required/>
+				<label for="password">Password</label>
+				<input id="password" type="text" name="password" placeholder="1234passw0rd" required/>
+				<label for="signup"></label>
+				<button type="submit">Sign up</button>
+			</form>
+			<a class="centertext block forgot" href="/forgot-password/new">Forgot password?</a>
+		</div>
+		<p class="centertext account">Already have an account? <a class="account" href="/login">Log in</a></p>
+	</div>
+</body>
+</html>
